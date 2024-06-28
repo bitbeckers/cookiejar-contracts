@@ -35,7 +35,7 @@ contract DeployCookieJarModule is Script {
     address internal cookieJarFactory;
 
     // Deterministic deployment
-    bytes32 salt = keccak256("v0.5");
+    bytes32 salt = keccak256("v0.7");
 
     function setUp() public virtual {
         string memory mnemonic = vm.envString("MNEMONIC");
@@ -73,7 +73,7 @@ contract DeployCookieJarModule is Script {
         openCookieJar = address(new ZodiacOpenCookieJar{ salt: salt }());
 
         // Hats
-        hatsCookieJar = address(new ZodiacHatsCookieJar{ salt: salt }());
+        // hatsCookieJar = address(new ZodiacHatsCookieJar{ salt: salt }());
 
         // solhint-disable quotes
         console.log(block.chainid);

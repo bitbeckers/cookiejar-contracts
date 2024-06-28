@@ -23,6 +23,7 @@ arbitrum = { key = "${API_KEY_ARBISCAN}" }
 goerli = { key = "${API_KEY_ETHERSCAN}" }
 mainnet = { key = "${API_KEY_ETHERSCAN}" }
 optimism = { key = "${API_KEY_OPTIMISTIC_ETHERSCAN}" }
+base = { key = "${API_KEY_BASESCAN}" }
 polygon = { key = "${API_KEY_POLYGONSCAN}" }
 sepolia = { key = "${API_KEY_ETHERSCAN}" }
 gnosis = { key = "${API_KEY_GNOSISSCAN}", url = "https://api.gnosisscan.io/api/" }
@@ -43,6 +44,7 @@ goerli = "https://eth-goerli.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
 localhost = "http://localhost:8545"
 mainnet = "https://eth-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
 optimism = "https://opt-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+base = "https://base-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
 polygon = "https://polygon-mainnet.infura.io/v3/${API_KEY_INFURA}"
 sepolia = "https://eth-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
 gnosis = "https://rpc.gnosis.gateway.fm"
